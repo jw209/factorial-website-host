@@ -1,0 +1,119 @@
+html,body {
+    background-color:papayawhip;
+}
+
+#wrapper {
+	position: relative;
+	background-color: peachpuff;
+	border-style: solid;
+	border-color: teal;
+	border-width: 3px;
+	border-radius: 5%;
+	margin: 50px auto;
+	width: 650px;
+	height: 850px;
+}
+
+#picture {
+	position:fixed;
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+	transform: translate3d(998px, 40px, 0);
+	transition: transform .3s cubic-bezier(.17,.67,.61,.74);
+}
+
+#rectangle {
+	position: relative;
+	border-radius: 20px;
+	left: 20px;
+	top: 20px;
+	width: 610px;
+	height: 325px;
+	background:teal;
+	padding-top: .05%;
+}
+
+#factorialText {
+	color:floralwhite;
+	text-align: center;
+	padding-left: 5%;
+	margin-top: 5%;
+	padding-right: 5%;
+	position: relative;
+}
+
+#timeDisplayText {
+	color:floralwhite;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#displayDateTime {
+	color: floralwhite;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#creationDate {
+	position: absolute;
+	white-space: nowrap;
+	top: 780px;
+	left: 150px;
+	color: coral;
+	font-family: garamond;
+	text-align: center;
+	font-size:100%;
+}
+
+#browserInfo {
+	position: absolute;
+	top: 805px;
+	left: 200px;
+	color: coral;
+}
+
+#browserButton {
+	position: absolute;
+	top: 610px;
+	left: 150px;
+}
+
+h1 {
+	position: relative;
+	left: 40px;
+	top: 0px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	color: coral;
+	font-family: garamond;
+	font-size: 500%;
+	white-space: nowrap;
+}
+
+h3 {
+	position: relative;
+	left: 15px;
+	top: 5px;
+	margin-top: 0%;
+	margin-right: 5%;
+	color: coral;
+	font-family: garamond;
+	text-align: center;
+	font-size: 100%;
+}
+
+button {
+	position: absolute;
+	left: 240px;
+
+}
+
+#clock {
+	position: absolute;
+	font-size: xx-large;
+	text-align: center;
+	top: 230px;
+	left: 160px;
+}
