@@ -1,14 +1,24 @@
-//prompts user to input a positive number
-//alerts the user with the factorial of that number
-function calculateFactorial() {
-	var b = prompt("Please enter any positive number", 8);
-	if (b < 0) {
-		alert("Please enter a POSITIVE number!");
+//calculates factorial of 'val'
+function calculateFactorial(val) {
+	if(val == 0) {
+		return 1;
 	}
 	else {
-		alert(Math.pow(b, b));
+		return (val * calculateFactorial(val-1));
 	}
-		
+}
+
+//prompts the user to enter a positive number and alerts the user
+//of the factorial
+function factorialPrompt() {
+	var a = prompt("Please enter a positive number", 8);
+	if (a < 0) {
+		alert("Please enter a POSITIVE number");
+	}
+	else {
+		var b = calculateFactorial(a);
+		alert(b);
+	}
 }
 
 //when the page loads, display the browser info
