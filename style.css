@@ -80,7 +80,7 @@ html,body {
 	left: 150px;
 }
 
-h1 {
+#title {
 	position: relative;
 	left: 40px;
 	top: 0px;
@@ -92,7 +92,7 @@ h1 {
 	white-space: nowrap;
 }
 
-h3 {
+#siteSummary {
 	position: relative;
 	left: 15px;
 	top: 5px;
@@ -111,9 +111,10 @@ button {
 }
 
 #clock {
+	color: coral;
 	position: absolute;
 	font-size: xx-large;
 	text-align: center;
 	top: 230px;
-	left: 160px;
+	left: 155px;
 }

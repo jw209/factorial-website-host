@@ -9,14 +9,13 @@
 
     <body>
         <div id="wrapper">
-            <h1>Factorial Factory</h1>
-            <h3>Welcome to the Factorial Factory. This website demonstrates Jesse Wood's ability to use HTML5, CSS, and JavaScript
+            <h1 id="title">Factorial Factory</h1>
+            <h3 id="siteSummary">Welcome to the Factorial Factory. This website demonstrates Jesse Wood's ability to use HTML5, CSS, and JavaScript
             together to make a functional website. Thank you for visiting!</h3> 
         
             <div id="rectangle">
-                <p id="factorialText">Factorials are super simple! You can find the factorial of any number 'n' by
-                                    simply raising that number to the nth power. This site just uses a simple
-                                    JavaScript function to calculate factorials. Try it now!</p>
+                <p id="factorialText">The factorial of a number 'n' is represented as n! = n*(n-1)*(n-2)*...*1 <br> The button below
+                calls a JavaScript function that calculates a factorial through recursion! Try it now.</p>
                 <button onclick="factorialPrompt()">Calculate factorial</button>
                 <br>
                 <p id="timeDisplayText">Below you will see the local date and time! Thanks to JavaScript, I can
